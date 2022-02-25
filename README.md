@@ -1,7 +1,8 @@
 # RecuerdameQueTengo
 Proyecto elaborado por:
-* Anderson Yeseth Acuña Vargas(2191965)
-* Andrés Felipe Avella Rubiano(2193060)
+*   Anderson Yeseth Acuña Vargas(2191965)
+*   Andrés Felipe Avella Rubiano(2193060)  
+
 Inventario de uso general desarrollado en tecnologías web.
 
 ## Concepto
