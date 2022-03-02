@@ -11,6 +11,7 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(morgan('dev'));
 
-app.use('/api/inventario', require('./rutas/inventario-rutas.js'))
+app.use('/api/objetos', require('./rutas/objeto-rutas'))
+app.use('/api/categorias', require('./rutas/categoria-rutas'))
 
 module.exports = app;
