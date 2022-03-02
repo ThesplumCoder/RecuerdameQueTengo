@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose
-    .connect('mongodb+srv://ThesplumCoder:MongoDBase2022@cluster0.jotqc.mongodb.net/RecuerdameQueTengo?retryWrites=true&w=majority', 
+    .connect('mongodb://localhost:27017/RecuerdameQueTengo', 
         {
             useUnifiedTopology: true,
             useNewUrlParser: true
