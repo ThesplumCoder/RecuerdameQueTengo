@@ -1,0 +1,33 @@
+.principal {
+  height:100%;
+}
+
+.menu {
+  width: 25%;
+  border: 2px solid lightgrey;
+}
+
+.menu h1 {
+  margin: 0px;
+  padding: 10px;
+  font-size: xx-large;
+}
+.contenido {
+  height: 100%;
+}
+
+.encabezado {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+}
+.encabezado h1{
+  margin: 0px;
+  color: white; 
+  font-size: xx-large;
+}
+
+.encabezado button {
+  color: white;
+}

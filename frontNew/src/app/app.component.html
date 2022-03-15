@@ -1,0 +1,22 @@
+<mat-drawer-container class="principal">
+  <mat-drawer #menu class="menu" mode="push">
+    <h1>OPCIONES</h1>
+    <mat-divider></mat-divider>
+    <mat-nav-list role="list">
+      <mat-list-item href="" role="listitem">Objetos</mat-list-item>
+      <mat-list-item href="" role="listitem">Categorías</mat-list-item>
+    </mat-nav-list>
+  </mat-drawer>
+
+  <mat-drawer-content class="contenido">
+    <div class="encabezado">
+      <button mat-icon-button (click)="menu.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <h1>RecuerdameQueTengo</h1>
+    </div>
+    <acciones></acciones>
+    <tarjeta></tarjeta>
+    <tarjeta></tarjeta>
+  </mat-drawer-content>
+</mat-drawer-container>
