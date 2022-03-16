@@ -19,18 +19,18 @@ poder tenerlo en el dispositivo de su preferencia.
 
 ## Modelos de las entidades
 
-Actualmente la aplicación soporta dos modelos:
+Actualmente la aplicación soporta tres modelos:
 
 + Objeto:
 
     ```json
     {
-        "_id" : Number,
-        "nombre" : String,
-        "descripcion" : String,
-        "ubicacion" : String,
-        "categoria" : Number,
-        "costo" : Number
+        "_id" : "Number",
+        "nombre" : "String",
+        "descripcion" : "String",
+        "ubicacion" : "String",
+        "categoria" : "Number",
+        "costo" : "Number" 
     }
     ```
 
@@ -38,8 +38,19 @@ Actualmente la aplicación soporta dos modelos:
 
     ```json
     {
-        "_id" : Number,
-        "nombre" : String,
-        "descripcion" : String
+        "_id" : "Number",
+        "nombre" : "String",
+        "descripcion" : "String"
+    }
+    ```
+
++ Ubicacion:
+
+    ```json
+    {
+      "_id" : "Number",
+      "nombre" : "String",
+      "latitud" : "Number",
+      "longitud" : "Number"
     }
     ```
